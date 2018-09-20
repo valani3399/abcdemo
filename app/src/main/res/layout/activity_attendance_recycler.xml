@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Student"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_present"
+        android:hint="total"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/tv_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_num"
+        android:text="Present Student"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:layout_toRightOf="@+id/tv_pre"
+        android:layout_below="@+id/tv_num"
+        android:id="@+id/tv_present"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:hint="41"/>
+    <TextView
+        android:id="@+id/tv_ab"
+        android:layout_below="@+id/tv_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Absent Student"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tv_absert"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_present"
+        android:layout_below="@+id/tv_pre"
+        android:textSize="20dp"
+        android:hint="0"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/tv_absert"
+        android:id="@+id/attendance_recyclew_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>

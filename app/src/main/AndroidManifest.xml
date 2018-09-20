@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sa04.abc">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".TableActivity" />
+        <activity android:name=".RecyclerView.RecyclerActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".PattenActivity" />
+        <activity android:name=".FirsPageActivity" />
+        <activity android:name=".DateTimeActivity" />
+        <activity android:name=".RecyclerView.CardViewRecActivity" />
+        <activity android:name=".VaibrationActivity" />
+        <activity android:name=".SharceviewActivity" />
+        <activity android:name=".RecyclerView.AttendanceRecyclerActivity" />
+        <activity android:name=".WedSarvicesActivity" />
+        <activity android:name=".PostMethodActivity" />
+        <activity android:name=".PutMethodActivity" />
+        <activity android:name=".GetMethodActivity"></activity>
+    </application>
+
+</manifest>

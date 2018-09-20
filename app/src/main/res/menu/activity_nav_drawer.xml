@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_patten"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ptten" />
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Table" />
+        <item
+            android:id="@+id/nav_image"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="FullImage" />
+        <item
+            android:id="@+id/nav_date_time"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="DateTime" />
+        <item
+            android:id="@+id/nav_vaibration"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Vaibration" />
+        <item
+            android:id="@+id/nav_catdview"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cardview" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Attendance" />
+
+        <item
+            android:id="@+id/nav_web_services"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="WebServices" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
